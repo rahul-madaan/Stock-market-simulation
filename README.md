@@ -32,3 +32,51 @@ Show Users
 Exit
 
 ## Output file to show all companies and successful transactions
+
+Scrip Added: WIPRO, Open: 350.0, High: 352.8, Low: 357.0, Close: 352.0, Markets: NSE & BSE both, Total Scrips: 1
+Scrip Added: HCLTECH, Open: 866.0, High: 872.0, Low: 847.0, Close: 855.0, Markets: BSE only, Total Scrips: 2
+Scrip Added: CUB, Open: 160.0, High: 175.0, Low: 155.0, Close: 165.0, Markets: BSE only, Total Scrips: 3
+Scrip Added: TATAMOTORS, Open: 121.0, High: 130.0, Low: 117.0, Close: 128.0, Markets: NSE & BSE both, Total Scrips: 4
+Scrip Added: ASHOKLEY, Open: 75.0, High: 75.5, Low: 69.05, Close: 70.2, Markets: NSE only, Total Scrips: 5
+Scrip Added: CIPLA, Open: 761.0, High: 789.5, Low: 760.0, Close: 763.2, Markets: BSE only, Total Scrips: 6
+Scrip Added: SUNPHARMA, Open: 510.0, High: 529.95, Low: 510.0, Close: 524.5, Markets: NSE only, Total Scrips: 7
+Scrip Added: BIOCON, Open: 406.0, High: 420.0, Low: 400.05, Close: 416.0, Markets: NSE only, Total Scrips: 8
+Scrip Added: LUPIN, Open: 908.0, High: 925.0, Low: 902.05, Close: 917.5, Markets: BSE only, Total Scrips: 9
+User added: Jaydeep, Funds: 155000.0, Number of holdings: 3, Customer ID: 210254, Holdings: {CUB=500, WIPRO=330, SUNPHARMA=90}
+User added: Mimi, Funds: 300000.0, Number of holdings: 3, Customer ID: 521237, Holdings: {ASHOKLEY=700, HCLTECH=50, TATAMOTORS=50}
+User added: Kapil, Funds: 250000.0, Number of holdings: 4, Customer ID: 788744, Holdings: {BIOCON=90, SUNPHARMA=100, LUPIN=400, CIPLA=50}
+User added: Nusrat, Funds: 690000.0, Number of holdings: 0, Customer ID: 856400, Holdings: {}
+Order rejected for User: Jaydeep Reason: Lower circuit violation
+order placed for user: Jaydeep, Type: buy, Scrip: WIPRO, Qty: 100, Rate: 335.0
+order placed for user: Kapil, Type: buy, Scrip: TATAMOTORS, Qty: 100, Rate: 120.0
+Order rejected for User: Nusrat Reason: Insufficient Funds
+Order rejected as there are no stocks found in User holdings, User: Mimi
+Order rejected for User: Jaydeep Reason: Short Selling Out of scope
+Order rejected for User: Mimi Reason: Short Selling Out of scope
+Order rejected for User: Jaydeep Reason: Upper circuit violation
+
+Order Book:
+Buy order WIPRO:100 at 335.0
+Buy order TATAMOTORS:100 at 120.0
+
+Executed orders:
+
+Scrips listed in category: IT
+WIPRO, OHLC = <350.0, 352.8, 357.0, 352.0>, Markets: NSE & BSE both
+HCLTECH, OHLC = <866.0, 872.0, 847.0, 855.0>, Markets: NSE & BSE both
+
+Scrip not found: M&M
+Deleted user: Nusrat
+
+Users:
+Name: Jaydeep, Funds: 155000.0, Holdings: {CUB=500, WIPRO=330, SUNPHARMA=90}
+Name: Mimi, Funds: 300000.0, Holdings: {ASHOKLEY=700, HCLTECH=50, TATAMOTORS=50}
+Name: Kapil, Funds: 250000.0, Holdings: {BIOCON=90, SUNPHARMA=100, LUPIN=400, CIPLA=50}
+
+INFY 15 Day Data:
+Open average of 15 days: 348.54
+Close average of 15 days: 349.2
+Overall average: 348.87
+Max return potential over 15 days: 98.35 per share
+Max return potential percentage: 31.2%
+Max Drawdown: 37.85
