@@ -1,6 +1,13 @@
 # Stock-market-simulation
 Stock market sumulation in Java, without GUI
 
+## Concepts used
+- Creating a parent Market class
+- Extending Market Class to make NSE and BSE Markets
+- Reading file and spliting using regex
+- executing transactions 
+- exception handling for insufficient funds, upper circuit violation, lower circuit violation and short selling
+
 ## Input file for Creating companies and transactions
 Add scrip: WIPRO, sector: IT, O:350, H:352.8, L:357, C:352
 
